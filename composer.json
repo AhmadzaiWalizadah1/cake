@@ -14,6 +14,7 @@
 		"sort-packages": true
 	},
 	"require": {
+		"t3docs/blog-example": "^12.1",
 		"typo3/cms-backend": "^12.4.0",
 		"typo3/cms-belog": "^12.4.0",
 		"typo3/cms-beuser": "^12.4.0",
@@ -40,7 +41,12 @@
 		"typo3/cms-tstemplate": "^12.4.0",
 		"typo3/cms-viewpage": "^12.4.0",
 		"typo3/cms-webhooks": "^12.4.0"
-	}
+	},
 
-	
-}
+		"repositories": [
+		   {
+			  "type": "path",
+			  "url": "packages/*"
+		   }
+		]
+	 }

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e7c33ef3912da64f0435d5d5203d19b2",
+    "content-hash": "617c45525f40a623d14699a2dd605e2a",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -5118,6 +5118,65 @@
                 }
             ],
             "time": "2024-05-31T14:49:08+00:00"
+        },
+        {
+            "name": "t3docs/blog-example",
+            "version": "12.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TYPO3-Documentation/blog_example.git",
+                "reference": "6b054aaad6a3cd29e27d8ba492a98887e556b7ad"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TYPO3-Documentation/blog_example/zipball/6b054aaad6a3cd29e27d8ba492a98887e556b7ad",
+                "reference": "6b054aaad6a3cd29e27d8ba492a98887e556b7ad",
+                "shasum": ""
+            },
+            "require": {
+                "typo3/cms-core": "^12.4",
+                "typo3/cms-extbase": "^12.4",
+                "typo3/cms-fluid": "^12.4"
+            },
+            "replace": {
+                "friendsoftypo3/blog-example": "self.version"
+            },
+            "require-dev": {
+                "ergebnis/composer-normalize": "~2.42.0",
+                "friendsofphp/php-cs-fixer": "^3.52"
+            },
+            "type": "typo3-cms-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "12.1.x-dev"
+                },
+                "typo3/cms": {
+                    "extension-key": "blog_example",
+                    "web-dir": ".Build/web"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "T3docs\\BlogExample\\": "Classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "TYPO3 Documentation Team and contributors",
+                    "role": "Developer"
+                }
+            ],
+            "description": "This extension contains code examples used in TYPO3 explained to describe the use of Extbase.",
+            "homepage": "https://extensions.typo3.org/extension/blog_example/",
+            "support": {
+                "issues": "https://github.com/TYPO3-Documentation/blog_example/issues",
+                "source": "https://github.com/TYPO3-Documentation/blog_example"
+            },
+            "time": "2024-04-15T09:46:15+00:00"
         },
         {
             "name": "typo3/class-alias-loader",
