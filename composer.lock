@@ -4,8 +4,34 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "eb2be48f5c81a38f59bc7fd0dc25a7cf",
+    "content-hash": "dcc0034fb2c515065b40512e13bfeccc",
     "packages": [
+        {
+            "name": "arman/slider",
+            "version": "dev-ext-development",
+            "dist": {
+                "type": "path",
+                "url": "src/extensions/slider",
+                "reference": "7aa074924fca7996ec0b8cdaf5c00a372323130b"
+            },
+            "require": {
+                "typo3/cms-core": "^12.0"
+            },
+            "type": "typo3-cms-extension",
+            "autoload": {
+                "psr-4": {
+                    "Arman\\Slider\\": "Classes/"
+                }
+            },
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "description": "Just a simple slider",
+            "transport-options": {
+                "symlink": true,
+                "relative": true
+            }
+        },
         {
             "name": "bacon/bacon-qr-code",
             "version": "2.0.8",
@@ -7425,7 +7451,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "arman/slider": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],

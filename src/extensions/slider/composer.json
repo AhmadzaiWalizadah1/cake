@@ -1,6 +1,6 @@
 {
     "name": "arman/slider",
-    "description": "just a slider",
+    "description": "Just a simple slider",
     "type": "typo3-cms-extension",
     "license": [
         "GPL-2.0-or-later"
@@ -12,10 +12,6 @@
         "psr-4": {
             "Arman\\Slider\\": "Classes/"
         }
-    },
-    "extra": {
-        "typo3/cms": {
-            "extension-key": "slider"
-        }
     }
+  
 }
